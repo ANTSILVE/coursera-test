@@ -1,0 +1,93 @@
+body {
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #ff9966;
+	margin-bottom: 0px;
+}
+
+.navbar-brand {
+	height: auto;
+}
+
+.navbar-brand h1 {
+	color: black;
+	font-weight: bold;
+	font-size: 1.8em;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list a {
+	background-color: #ff5500;
+	color: #000000;
+	font-size: 1.2em;
+}
+
+#nav-list a:hover {
+	background:  #E7E7E7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+.container {
+	margin: 0 auto 30px;
+	width: 100%;
+}
+
+.container h2 {
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.container h3 {
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.row section {
+	margin: 0 auto 15px;
+	min-height: 700px;
+}
+
+#chicken-div, #beef-div, #sushi-div {
+	width: 100%;
+	margin: 0 auto 15px;
+	padding: 1% 5% 5%;
+	background-color: #ffccb3;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.row section {
+		min-height: auto;
+	}
+}
+
+@media (max-width: 767px) {
+	#collapsable-nav {
+		background-color: #ff5500;
+	}
+	
+	.container {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	.row section {
+		min-height: auto;
+	}
+}
+
+/* END HOME PAGE */
